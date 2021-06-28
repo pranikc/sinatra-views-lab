@@ -1,0 +1,4 @@
+<p>
+  <% require 'date' %>
+  The date is <%= Date.today.strftime("%A") %>, <%= Date::MONTHNAMES[Date.today.month] %> <%= Date.today.to_s.split("-")[2] %>, <%= Date.today.to_s.split("-")[0] %>
+</p>
